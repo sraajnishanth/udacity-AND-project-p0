@@ -1,0 +1,107 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#ffdfeaf1"
+    tools:context="app.com.example.android.project0.MainActivityFragment">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/title_textView"
+        android:text="My Nanodegree Apps!" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="30dp"
+        android:id="@+id/scrollView"
+        android:layout_gravity="center" >
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:layout_marginTop="15dp"
+                android:background="#F08C35"
+                android:text="Spotify Streamer"
+                android:textSize="@dimen/abc_action_bar_icon_vertical_padding_material"
+                android:id="@+id/spotify_streamer_button"
+                android:onClick="showToast" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:layout_marginTop="15dp"
+                android:background="#F08C35"
+                android:text="Scores App"
+                android:textSize="@dimen/abc_action_bar_icon_vertical_padding_material"
+                android:id="@+id/scores_app_button"
+                android:onClick="showToast" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:layout_marginTop="15dp"
+                android:background="#F08C35"
+                android:text="Library App"
+                android:textSize="@dimen/abc_action_bar_icon_vertical_padding_material"
+                android:id="@+id/library_app_button"
+                android:onClick="showToast" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:layout_marginTop="15dp"
+                android:background="#F08C35"
+                android:text="Build it Bigger"
+                android:textSize="@dimen/abc_action_bar_icon_vertical_padding_material"
+                android:id="@+id/build_it_bigger_button"
+                android:onClick="showToast" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:layout_marginTop="15dp"
+                android:background="#F08C35"
+                android:text="XYZ Reader"
+                android:textSize="@dimen/abc_action_bar_icon_vertical_padding_material"
+                android:id="@+id/xyz_reader_button"
+                android:onClick="showToast" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:layout_marginTop="15dp"
+                android:text="Capstone: My Own App"
+                android:id="@+id/capstone_project_button"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/abc_action_bar_icon_vertical_padding_material"
+                android:background="#CD063F"
+                android:onClick="showToast" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
