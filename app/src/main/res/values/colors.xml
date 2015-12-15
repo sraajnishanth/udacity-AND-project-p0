@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="ProjectButtonColor">#F08C35</color>
+    <color name="CapstoneButtonColor">#CD063F</color>
+    <color name="CapstoneTextColor">#FFFFFF</color>
+
+</resources>

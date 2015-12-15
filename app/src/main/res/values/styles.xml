@@ -5,4 +5,24 @@
         <!-- Customize your theme here. -->
     </style>
 
+    <!-- Base application theme. -->
+    <style name="ProjectButton" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">20dp</item>
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:background">@color/ProjectButtonColor</item>
+        <item name="android:textSize">@dimen/abc_action_bar_icon_vertical_padding_material</item>
+    </style>
+
+    <style name="CapstoneButton" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">20dp</item>
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:textColor">@color/CapstoneTextColor</item>
+        <item name="android:textSize">@dimen/abc_action_bar_icon_vertical_padding_material</item>
+        <item name="android:background">@color/CapstoneButtonColor</item>
+    </style>
+
 </resources>
