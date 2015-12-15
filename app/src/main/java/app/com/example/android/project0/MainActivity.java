@@ -1,6 +1,7 @@
 package app.com.example.android.project0;
 
 import android.content.Context;
+import android.content.res.Resources;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
@@ -44,29 +45,31 @@ public class MainActivity extends ActionBarActivity {
         String text = "Nothing Clicked";
         int duration = Toast.LENGTH_SHORT;
 
+        Resources res = getResources();
+
         switch (v.getId()){
             case R.id.spotify_streamer_button:
-                text = "This button will launch the \"Spotify Streamer\" app";
+                text = res.getString(R.string.spotify_streamer_toast_text);
                 break;
 
             case R.id.scores_app_button:
-                text = "This button will launch the \"Super Duo (2 buttons: Football Scores App and Library App)\" ";
+                text = res.getString(R.string.scores_app_toast_text);
                 break;
 
             case R.id.library_app_button:
-                text = "This button will launch the \"Library\" app";
+                text = res.getString(R.string.library_app_toast_text);
                 break;
 
             case R.id.build_it_bigger_button:
-                text = "This button will launch the \"Build It Bigger\" app";
+                text = res.getString(R.string.build_it_bigger_toast_text);
                 break;
 
             case R.id.xyz_reader_button:
-                text = "This button will launch the \"XYZ Reader\" app";
+                text = res.getString(R.string.xyz_reader_toast_text);
                 break;
 
             case R.id.capstone_project_button:
-                text = "This button will launch my Capstone app!";
+                text = res.getString(R.string.capstone_project_toast_text);
                 break;
 
             default:

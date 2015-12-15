@@ -8,4 +8,12 @@
     <string name="build_it_bigger_button_text">Build it Bigger</string>
     <string name="xyz_reader_button_text">XYZ Reader</string>
     <string name="capstone_project_button_text">Capstone: My Own App</string>
+
+    <string name="spotify_streamer_toast_text">This button will launch the "Spotify Streamer" app</string>
+    <string name="scores_app_toast_text">This button will launch the "Super Duo (2 buttons: Football Scores App and Library App)" </string>
+    <string name="library_app_toast_text">This button will launch the "Library" app</string>
+    <string name="build_it_bigger_toast_text">This button will launch the "Build It Bigger" app</string>
+    <string name="xyz_reader_toast_text">This button will launch the "XYZ Reader" app</string>
+    <string name="capstone_project_toast_text">This button will launch my Capstone app!</string>
+
 </resources>
